@@ -1,9 +1,9 @@
 /* Algemene stijlen voor de hele website */
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 2px;
+  margin: 15px;
   padding: 12px;
-  background-color: #491b1b; /* Bijgewerkte achtergrondkleur naar zwart */
+  background-color: #bd1f1f; /* Bijgewerkte achtergrondkleur naar zwart */
   color: #9d9da3; /* Bijgewerkte tekstkleur naar blauw */
 }
 
@@ -40,7 +40,7 @@ main {
 
 /* Footer stijlen */
 footer {
-  background-color: #491b1b; /* Bijgewerkte achtergrondkleur */
+  background-color: #bd1f1f; /* Bijgewerkte achtergrondkleur */
   color: #000000; /* Bijgewerkte tekstkleur */
   text-align: center;
   padding: 16px 0; /* 16px padding */
