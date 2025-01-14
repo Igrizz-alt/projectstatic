@@ -11,15 +11,14 @@ header {
   color: #fff;
   padding: 8px 0;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 60px;
 }
 
 header nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  padding: 0;
-  border-radius: 20px;
+  padding: 0
 }
 
 header nav li {
