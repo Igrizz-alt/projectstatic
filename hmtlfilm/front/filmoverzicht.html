@@ -3,89 +3,171 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Filmoverzicht - DC comics</title>
+  <title>DComics - Film Detail</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="front.css">
 </head>
 <body>
 <header>
   <nav>
     <ul>
       <li><a href="index.html">Filmoverzicht</a></li>
-      <li><a href="about.html">Filminfo</a></li>
+      <li><a href="about.html">Film info</a></li>
       <li><a href="login.html">Admin</a></li>
     </ul>
   </nav>
 </header>
 
 <main>
-  <section class="filmoverzicht">
-    <h2>Filmoverzicht</h2>
-    <table>
-      <thead>
-      <tr>
-        <th>Film</th>
-        <th>Genre</th>
-        <th>Acteurs</th>
-        <th>Acties</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td>Man of Steel</td>
-        <td>Actie, Avontuur</td>
-        <td>Henry Cavill, Amy Adams</td>
-        <td>
-          <button class="edit-btn">Bewerken</button>
-          <button class="delete-btn">Verwijderen</button>
-        </td>
-      </tr>
-      <tr>
-        <td>Batman v Superman: Dawn of Justice</td>
-        <td>Actie, Avontuur</td>
-        <td>Ben Affleck, Henry Cavill</td>
-        <td>
-          <button class="edit-btn">Bewerken</button>
-          <button class="delete-btn">Verwijderen</button>
-        </td>
-      </tr>
-      <tr>
-        <td>Suicide Squad</td>
-        <td>Actie, Misdaad</td>
-        <td>Will Smith, Margot Robbie</td>
-        <td>
-          <button class="edit-btn">Bewerken</button>
-          <button class="delete-btn">Verwijderen</button>
-        </td>
-      </tr>
-      <tr>
-        <td>Wonder Woman</td>
-        <td>Actie, Avontuur</td>
-        <td>Gal Gadot, Chris Pine</td>
-        <td>
-          <button class="edit-btn">Bewerken</button>
-          <button class="delete-btn">Verwijderen</button>
-        </td>
-      </tr>
-      <tr>
-        <td>Justice League</td>
-        <td>Actie, Avontuur</td>
-        <td>Ben Affleck, Gal Gadot</td>
-        <td>
-          <button class="edit-btn">Bewerken</button>
-          <button class="delete-btn">Verwijderen</button>
-        </td>
-      </tr>
+  <section class="filmdetail">
+    <div class="film-item">
+      <img class="imgdetail" src="Man_of_Steel.jpg" alt="Film 1">
+      <div class="film-info">
+        <h1>Film 1</h1>
+        <p><strong class = "strong">Acteurs:</strong> Henry Cavill , Amy Adams, Michael Shannon,Russell Crowe , Kevin Costner
+          ,Diane Lane , Laurence Fishburne</p>
+        <p><strong class="strong">Genre:</strong> Actie ,Avontuur ,Sciencefiction</p>
+        <p><strong class ="strong">Plot:</strong> De jonge Kal-El wordt van de stervende planeet Krypton naar de aarde gestuurd
+          door zijn ouders. Op aarde groeit hij op als Clark Kent en worstelt hij met zijn bovennatuurlijke
+          krachten en identiteit. Wanneer de Kryptoniaanse generaal Zod arriveert en de aarde bedreigt, moet
+          Clark zijn lot accepteren als Superman en de mensheid beschermen tegen verwoesting. De film verkent
+          zijn zoektocht naar zijn plaats in de wereld, zijn banden met zijn adoptieouders en zijn strijd tegen
+          Zod om de aarde te redden.</p>
+        <h2>Reviews</h2>
+        <p > <strong class="review">Review1</strong> :De film biedt een indrukwekkende herintroductie van Superman,
+          met verbluffende visuele effecten en een emotioneel krachtige vertolking door Henry Cavill. De actiescènes
+          zijn spectaculair, vooral de gevechten tussen Superman en General Zod.!</p>
+        <p ><strong class="review">Review2</strong> De film wordt bekritiseerd vanwege
+          het overmatig gebruik van CGI en de vernietigende actiescènes,
+          waarbij de emotionele connectie soms verloren gaat in alle chaos.</p>
+      </div>
+    </div>
 
+    <div class="film-item">
+      <img class="imgdetail" src="Batman_v_Superman.jpg" alt="Film 2">
+      <div class="film-info">
+        <h1>Film 2</h1>
+        <p><strong class="strong">Acteurs:</strong>Ben Affleck,Henry Cavill,Gal Gadot,Jesse Eisenberg,Amy Adams,
+          Jeremy Irons,Diane Lane ,Laurence Fishburne</p>
+        <p><strong class="strong">Genre:</strong>Actie ,Avontuur ,Sciencefiction</p>
+        <p><strong class="strong">Plot:</strong> Na de destructieve gebeurtenissen in
+          Metropolis voelt Bruce Wayne zich bedreigd door de immense kracht van Superman.
+          Hij ziet Superman als een mogelijke bedreiging voor de mensheid en besluit hem
+          te confronteren als Batman. Terwijl de spanning tussen de twee helden toeneemt,
+          manipuleert Lex Luthor de situatie om chaos te veroorzaken. Tegelijkertijd dreigt
+          een grotere bedreiging in de vorm van het monster Doomsday, waardoor Batman,
+          Superman en Wonder Woman hun krachten moeten bundelen om de wereld te redden.</p>
 
-      </tbody>
-    </table>
+        <h2>Reviews</h2>
+        <p > <strong class="review">Review1</strong> : De donkere toon en de filosofische ondertonen make
+          het een unieke superheldenfilm. Ben Affleck's Batman en de introductie van Gal Gadot als Wonder
+          Woman werden bijzonder goed ontvangen.</p>
+        <p> <strong class="review">Review2</strong> : Het verhaal voelt rommelig,
+          met te veel subplots en een misbruikte rol voor Lex Luthor. De film mist
+          de juiste balans en kan verwarrend zijn voor casual kijkers.</p>
+      </div>
+    </div>
+
+    <div class="film-item">
+      <img class="imgdetail" src="Suicide_Squad.png" alt="Film 3">
+      <div class="film-info">
+        <h1>Film 3</h1>
+        <p><strong class="strong">Acteurs:</strong> Will Smith, Margot Robbie, Jared Leto, Viola DavisJoel,
+          Kinnaman ,Cara Delevingne ,Jai Courtney,Jay Hernandez,
+          Adewale Akinnuoye-Agbaje ,Karen Fukuhara</p>
+        <p><strong class="strong">genre:</strong> Actie ,Avontuur ,Fantasy</p>
+        <p><strong class="strong"> Plot:</strong> De Amerikaanse overheid stelt een team samen
+          van gevaarlijke gevangenen met bijzondere vaardigheden, bekend als de Suicide Squad.
+          Onder leiding van de meedogenloze Amanda Waller en soldaat Rick Flag, worden ze ingezet
+          voor levensgevaarlijke missies in ruil voor strafvermindering. Hun eerste opdracht is het
+          stoppen van de machtige Enchantress, een voormalige archeologe bezeten door een oude demon.
+          Terwijl het team worstelt met interne conflicten en hun duistere verleden, leren ze samenwerken
+          om een apocalyptische dreiging te stoppen. </p>
+        <h2>Reviews</h2>
+        <p > <strong class="review">Review1</strong> :Margot Robbie’s Harley Quinn en Will Smith’s
+          Deadshot stelen de show met hun charismatische prestaties. De soundtrack is energiek en
+          past perfect bij de sfeer van de film..</p>
+        <p> <strong class="review">Review2</strong> : De film heeft een slecht uitgewerkt plot en
+          een zwakke schurk. De montage voelt geforceerd, en de Joker, gespeeld door Jared Leto,
+          kreeg te weinig betekenisvolle screentijd.</p>
+      </div>
+    </div>
+
+    <div class="film-item">
+      <img class="imgdetail" src="Wonder_Woman.jpg" alt="Film 4">
+      <div class="film-info">
+        <h1>Film 4</h1>
+        <p><strong class="strong">Acteurs:</strong> Gal Gadot, Chris Pine, Connie Nielsen</p>
+        <p><strong class="strong">genre:</strong>  Actie ,Avontuur,Fantasy</p>
+        <p><strong class="strong">plot:</strong> Diana, prinses van de Amazones en opgegroeid
+          op het verborgen eiland Themyscira, is een onoverwinnelijke krijger met goddelijke
+          krachten. Wanneer piloot Steve Trevor tijdens de Eerste Wereldoorlog op het eiland
+          neerstort, vertelt hij over het conflict dat de wereld verscheurt. Diana besluit
+          haar thuis te verlaten om de oorlog te beëindigen, overtuigd dat Ares,
+          de god van de oorlog, hierachter zit. Terwijl ze de menselijke wereld leert kennen,
+          ontdekt ze haar ware krachten en bestemming als Wonder Woman. Ze strijdt voor vrede
+          en leert de kracht van liefde en opoffering.</p>
+
+        <h2>Reviews</h2>
+        <p > <strong class="review">Review1</strong> : De film combineert epische actie met een sterke emotionele kern.
+          Gal Gadot schittert in de titelrol, en de chemie tussen haar en Chris Pine maakt de film meeslepend en ontroerend.!</p>
+        <p > <strong class="review">Review2</strong> :De climax van de film wordt vaak bekritiseerd vanwege een overmatig gebruik
+          van CGI en een minder overtuigende eindschurk in de vorm van Ares.</p>
+      </div>
+    </div>
+
+    <div class="film-item">
+      <img class="imgdetail" src="Justice_League.jpg" alt="Film 5">
+      <div class="film-info">
+        <h1>Film 5</h1>
+        <p><strong class="strong">Acteurs:</strong>  Ben Affleck, Henry Cavill, Gal Gadot, Ezra Miller, Jason Momoa,
+          Ray Fisher, Amy Adams, Jeremy Irons, Diane Lane, Connie Nielsen,</p>
+        <p><strong class="strong">genre:</strong> Actie ,Avontuur ,Sciencefiction</p>
+        <p><strong class="strong">plot:</strong> Na de dood van Superman voelt Bruce Wayne
+          (Batman) de dreiging van een buitenaardse aanval. Samen met Diana Prince (Wonder Woman)
+          besluit hij een team van helden samen te stellen: Aquaman, The Flash en Cyborg. Het team
+          moet samenwerken om de kwaadaardige Steppenwolf en zijn leger van Parademons te verslaan,
+          die de aarde willen veroveren door drie krachtige "Mother Boxes" te herenigen. Ondanks hun
+          verschillen leren de helden samenwerken en ontdekken ze dat ze Superman nodig hebben om de
+          wereld te redden. Zijn wederopstanding wordt de sleutel tot het verslaan van de vijand en
+          het beschermen van de mensheid</p>
+
+        <h2>Reviews</h2>
+        <p > <strong class="review">Review1</strong> : De dynamiek tussen de helden, vooral The Flash en Wonder Woman,
+          brengt humor en hart in de film. Het is vermakelijk om de iconische DC-personages samen op het scherm te zien.</p>
+        <p > <strong class="review">Review2</strong> : De film voelt gehaast, met een zwakke schurk (Steppenwolf) en
+          inconsistente visuele effecten. De wisselingen in regie (Joss Whedon na Zack Snyder) leidden tot een
+          onsamenhangende toon.</p>
+      </div>
+    </div>
+
+    <div class="film-item">
+      <img class="imgdetail" src="Aquaman.jpg" alt="Film 6">
+      <div class="film-info">
+        <h1>Film 6</h1>
+        <p><strong class="strong">Acteurs:</strong> Jason Momoa, Amber Heard, Willem Dafoe</p>
+        <p><strong class="strong">genre:</strong> Fantasy,Actie</p>
+        <p><strong class="strong">Plot:</strong> Arthur Curry, half mens en half Atlantiër,
+          ontdekt zijn ware bestemming als erfgenaam van de onderwaterstad Atlantis. Wanneer
+          zijn halfbroer Orm een oorlog wil beginnen tegen de oppervlaktewereld, moet Arthur
+          de legendarische Trident van Atlan vinden om zijn rechtmatige plaats als koning op
+          te eisen. Samen met Mera gaat hij op een avontuurlijke reis vol gevaren, mythische
+          wezens en oude geheimen. Arthur groeit uit tot een held en brengt vrede tussen de
+          onderwater- en mensenwereld.</p>
+
+        <h2>Reviews</h2>
+        <p > <strong class="review">Review1</strong> : De film is een visueel spektakel met een kleurrijke en fantasierijke onderwaterwereld.
+          Jason Momoa brengt een rauwe charme en humor naar de rol van Aquaman.</p>
+        <p > <strong class="review">Review2</strong> : Het verhaal is voorspelbaar,
+          en sommige dialogen voelen cliché aan. Ondanks de prachtige visuals kan het tempo inconsistent zijn,
+          waardoor de film soms te lang aanvoelt.</p>
+      </div>
+    </div>
   </section>
 </main>
 
 <footer>
-  <p>DC comics. Just a fanpage.</p>
+  <p> DC comics.just a fanpage.</p>
 </footer>
-
 </body>
 </html>
